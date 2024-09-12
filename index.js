@@ -3,7 +3,6 @@ const fs = require("fs");
 const port = 8081;
 
 const requestHeandle = (req, res) => {
-    //  res.write("<h1>Hello</h1>");
   console.log(req.url);
 
   let fileName = "";
